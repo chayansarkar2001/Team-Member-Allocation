@@ -118,7 +118,7 @@ export default function App() {
     setEmployees(transferEmployee)
   }
   return (
-    <Router>
+    <Router basename="/Team-Member-Allocation">
       <Nav />
       <Header 
         teamName={selectedTeam}
